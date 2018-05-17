@@ -236,7 +236,7 @@ if ($placeholder === false) {
         "tpl" => $itemTemplate,
     );
     
-    $source = isset($dittoSnippetName) ? $dittoSnippetName : '';
+    $source = isset($dittoSnippetName) ? $dittoSnippetName : 'Ditto';
     $params = isset($dittoSnippetParameters) ? $dittoSnippetParameters : '';
         // TODO: Remove after 3.0
         
