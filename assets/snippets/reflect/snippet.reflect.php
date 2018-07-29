@@ -275,7 +275,7 @@ if ($placeholder === false) {
         }
     }
 
-    $source = isset($source) ? $source : "Ditto";
+    $source = (!empty($source)) ? $source : "Ditto";
     /*
         Param: source
 
